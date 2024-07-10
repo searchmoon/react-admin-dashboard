@@ -1,5 +1,11 @@
+import DataTable from "../../components/dataTable/DataTable";
+
 const Users = () => {
-  return <div>Users</div>;
+  return (
+    <div>
+      <DataTable />
+    </div>
+  );
 };
 
 export default Users;
